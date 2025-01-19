@@ -6,17 +6,6 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.6;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  min-height: 100vh;
-}
-
-/* Contenedor principal */
-.main-container {
-  width: 90%;
-  max-width: 1200px;
-  margin-top: 20px;
 }
 
 /* Encabezado */
@@ -43,7 +32,9 @@ header p {
   background-color: #9370DB; /* Fondo lavanda */
   color: #FFFFFF; /* Texto blanco */
   padding: 20px;
-  margin: 20px 0;
+  text-align: center;
+  margin: 20px auto;
+  max-width: 400px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   border: 1px solid #D8BFD8; /* Bordes morados claros */
