@@ -1,86 +1,57 @@
 /* Estilos generales */
 body {
-  background: url('/cartas/fondo.jpg') no-repeat center center fixed; 
-  background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
-  color: #4B0082; /* Texto principal morado oscuro */
-  font-family: 'Playfair Display', serif;
   margin: 0;
   padding: 0;
-  line-height: 1.6;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: url('cartas/fondo.jpg') no-repeat center center fixed;
+  background-size: cover;
 }
 
 /* Encabezado */
 header {
-  background-color: #4B0082; /* Fondo morado oscuro */
-  color: #FFFFFF; /* Texto blanco */
-  text-align: center;
-  padding: 20px 10px;
-  border-bottom: 5px solid #D8BFD8; /* Línea decorativa */
+  background-color: #4a0080;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
 }
 
-header h1 {
-  font-size: 2.5rem;
-  margin: 0;
-}
-
-header p {
-  font-size: 1.2rem;
-  margin: 5px 0 0;
+/* Contenedor principal */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.8); /* Fondo semitransparente */
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Cartas */
-.letters article {
-  background-color: #9370DB; /* Fondo lavanda */
-  color: #FFFFFF; /* Texto blanco */
+.card {
+  background: #9b71d0;
   padding: 20px;
-  text-align: center;
-  margin: 20px auto;
-  max-width: 400px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  border: 1px solid #D8BFD8; /* Bordes morados claros */
-}
-
-.letters article h2 {
-  font-size: 1.5rem;
-  margin: 0 0 10px;
-}
-
-.letters article a img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 8px;
-  border: 2px solid #FFFFFF; /* Bordes blancos */
-}
-
-.letters article p {
-  margin: 10px 0;
-}
-
-.letters article .date {
-  font-style: italic;
-  font-size: 0.9rem;
-  color: #D8BFD8; /* Texto decorativo */
-}
-
-/* Pie de página */
-footer {
-  background-color: #4B0082; /* Fondo morado oscuro */
-  color: #FFFFFF; /* Texto blanco */
+  margin: 20px auto;
+  max-width: 500px;
   text-align: center;
-  padding: 10px 5px;
-  margin-top: 20px;
-  font-size: 0.9rem;
 }
 
-/* Links */
-a {
-  color: #FFFFFF; /* Enlaces blancos */
-  text-decoration: none;
+.card img {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s;
 }
 
-a:hover {
-  text-decoration: underline;
-  color: #F5F5F5; /* Enlaces resaltados */
+.card img:hover {
+  transform: scale(1.1);
+}
+
+/* Texto de fecha */
+.date {
+  font-style: italic;
+  font-size: 14px;
+  color: gray;
 }
 
