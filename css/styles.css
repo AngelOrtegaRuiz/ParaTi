@@ -1,6 +1,7 @@
 /* Estilos generales */
 body {
-  background-color: #F5F5F5; /* Fondo gris claro */
+  background: url('../cartas/fondo.jpg') no-repeat center center fixed; 
+  background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
   color: #4B0082; /* Texto principal morado oscuro */
   font-family: 'Playfair Display', serif;
   margin: 0;
